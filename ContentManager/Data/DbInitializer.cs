@@ -20,9 +20,9 @@ namespace ContentManager.Data
 
             var universities = new University[]
             {
-            new University{Name="APEC", Description="ABCDEFGH"},
-            new University{Name="INTEC", Description="ABCDEFGH"},
-            new University{Name="PUCMM", Description="ABCDEFGH"},
+            new University{ID=200, Name="APEC", Description="ABCDEFGH"},
+            new University{ID=300, Name="INTEC", Description="ABCDEFGH"},
+            new University{ID=450, Name="PUCMM", Description="ABCDEFGH"},
             };
             foreach (University s in universities)
             {
@@ -43,8 +43,8 @@ namespace ContentManager.Data
 
             var studyPlans = new StudyPlan[]
             {
-            new StudyPlan{Name="Software Modeling", Content="ABCDFGHIJKLMNOP"},
-            new StudyPlan{Name="Software Quality", Content="ABCDFGHIJKLMNOP"},
+            new StudyPlan{Name="Software Modeling", Content="ABCDFGHIJKLMNOP", UniversityID=200},
+            new StudyPlan{Name="Software Quality", Content="ABCDFGHIJKLMNOP", UniversityID=300},
             };
             foreach (StudyPlan sp in studyPlans)
             {
