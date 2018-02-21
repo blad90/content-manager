@@ -1,0 +1,24 @@
+{
+"universities": [
+	{ 	"ID"	 		: 250,
+		"Name"	 		: "APEC",
+		"Description" 	: "ABCDE FGHIJ KLMNOP QRST" 
+	},{
+  		"ID" 			: 350,
+		"Name"	 		: "ITLA",
+		"Description" 	: "ABCDE FGHIJ KLMNOP QRST" 
+	},{
+ 		"ID" 			: 450,
+		"Name"	 		: "PUCMM",
+		"Description" 	: "ABCDE FGHIJ KLMNOP QRST" 
+ 	},{
+ 		"ID" 			: 550,
+		"Name"	 		: "INTEC",
+		"Description"	: "ABCDE FGHIJ KLMNOP QRST" 
+ 	},{
+ 		"ID"			: 650,
+		"Name"	 		: "O&M",
+		"Description" 	: "ABCDE FGHIJ KLMNOP QRST"
+	}
+]
+}
